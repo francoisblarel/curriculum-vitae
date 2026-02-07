@@ -2,7 +2,7 @@
 
 '''
 
-=== icon:terminal[] Leroy Merlin
+=== icon:terminal[] Decathlon
 
 icon:calendar[]  01/2023 – aujourd’hui +
 icon:user[]  _Tech lead_ +

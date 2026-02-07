@@ -15,14 +15,14 @@ Collaboration:: Facilitation d'ateliers métier, alignement technique/produit, a
 [horizontal]
 languages:: Java, Typescript, CSS, HTML, XML, JSON, Avro, Yaml, Asciidoc
 Technologies::  Kafka, Zookeeper, Schema-registry, Kubernetes, Rancher, Docker, Elasticsearch, Kibana, Logstash, RabbitMQ, Prometheus, Helm, Grafana, Consul
-frameworks and libs::  Spring Suite (Springboot, Spring data…), Kafka Streams, Vavr, Hibernate, Junit, Liquibase, Gatling, Nest
+frameworks and libs::  Spring Suite (Springboot, Spring data…), Kafka Streams, Vavr, Jooq, Hibernate, Junit, Liquibase, Gatling, Nest
 databases:: Postgres, Oracle, MongoDB
-SCM:: Git, SVN
+SCM:: Git
 
 
 === tools
 
 [horizontal]
 IDE:: IntelliJ, Eclipse
-OS:: Linux icon:heart[]
-Build:: Maven, Github actions, Jenkins, Sonar, Nexus, Rundeck
+OS:: Mac, Linux icon:heart[]
+Build:: Maven, Gradle, Github actions, Jenkins, Sonar, Nexus, Rundeck
