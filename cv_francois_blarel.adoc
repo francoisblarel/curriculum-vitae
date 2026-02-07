@@ -6,7 +6,7 @@ François Blarel <francois.blarel@pm.me>
 :phone: 06 78 35 26 90
 updated {localdatetime}
 :icons: font
-:iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css
+:iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 ifdef::backend-pdf[]
 // :toc:
 // :toclevels: 1

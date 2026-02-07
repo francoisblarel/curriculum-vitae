@@ -3,26 +3,57 @@
 
 '''
 
-=== savoir-faire
+=== Accompagnement humain & leadership
+
+- Accompagnement des développeurs vers plus d’autonomie et de confiance
+- Mentorat, mob/pair programming
+- Création d’un cadre de travail serein, propice à l’apprentissage et à l’amélioration continue
+- Agilité, trouver ce qui fonctionne avec l'équipe plutôt que d'imposer une méthodologie 
+
+=== Compréhension et modélisation du métier
+
+- Travail étroit avec les équipes métier / produit
+- Animation d’ateliers de découverte du domaine (event storming)
+- Mise en place d’un langage commun entre experts métier et équipes techniques
+- Utilisation du Domain-Driven Design comme outil de dialogue autant que d’architecture
+
+=== Décisions techniques durables
+
+- Conception d’architectures Java compréhensibles et évolutives
+- Recherche de simplicité, de lisibilité et de maintenabilité
+- Arbitrage technique guidé par les enjeux business, pragmatisme
+- Travail sur la boucle de feedback, déploiement continu
+
+
+=== Savoir-faire
 
 [horizontal]
-Leadership:: Accompagnement d'équipes (5 à 15 personnes), mentorat technique, animation d'ateliers DDD
-Méthodologies:: DDD (event storming, patterns tactiques), TDD, pair/mob programming, déploiement continu, Kanban, Scrum
-Collaboration:: Facilitation d'ateliers métier, alignement technique/produit, amélioration continue
-
-=== stack
-
-[horizontal]
+pratiques:: Mob programming, DDD, TDD, Clean architecture, architecture hexagonale, amélioration continue, Kanban, Scrum 
 languages:: Java, Typescript, CSS, HTML, XML, JSON, Avro, Yaml, Asciidoc
 Technologies::  Kafka, Zookeeper, Schema-registry, Kubernetes, Rancher, Docker, Elasticsearch, Kibana, Logstash, RabbitMQ, Prometheus, Helm, Grafana, Consul
 frameworks and libs::  Spring Suite (Springboot, Spring data…), Kafka Streams, Vavr, Jooq, Hibernate, Junit, Liquibase, Gatling, Nest
 databases:: Postgres, Oracle, MongoDB
 SCM:: Git
+(la technique est un moyen, pas une finalité)
 
-
-=== tools
+=== Outils
 
 [horizontal]
 IDE:: IntelliJ, Eclipse
 OS:: Mac, Linux icon:heart[]
 Build:: Maven, Gradle, Github actions, Jenkins, Sonar, Nexus, Rundeck
+
+=== Valeurs
+
+- Respect, écoute et esprit d'équipe
+- Transparence et pédagogie
+- Simplicité et pragmatisme
+- Responsabilité collective
+
+=== Ce que je recherche chez un client
+
+- Une volonté réelle de collaboration entre métier et technique
+- Une attention portée à l’humain et à la qualité des échanges
+- Un contexte où la technique sert un produit ou un service porteur de sens
+- Une relation de confiance, dans la durée
+
