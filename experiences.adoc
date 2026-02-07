@@ -45,22 +45,17 @@ icon:user[]  _Lead Developer_ +
 ==== Instala
 icon:users[]  Equipe Instala (15 personnes)
 
-Application de suivi et monitoring des chantiers/devis.
+Plateforme de suivi des chantiers d'installation pour les clients Leroy Merlin : achat de services de pose en ligne ou en magasin, planification des rendez-vous (mesures, pose), validation de devis. Enjeu stratégique pour Leroy Merlin : développer la vente de services au-delà des produits.
 
-Développement de composants backend sur une architecture microservices. Communication inter services via API et Kafka.
+En tant que référent technique, accompagnement des développeurs sur le design applicatif et les choix d'architecture.
 
-Conception et développement d'une brique d'ACL en Kafka Stream afin d'intégrer et agréger les informations du système
-de vente.
+Intégration des commandes de l'écosystème Leroy Merlin / Adeo : conception et développement d'une brique d'ACL en Kafka Stream pour agréger les informations du système de vente.
 
-Accompagnement autours de Kafka (configuration clients, gestion des erreurs, structure des messages, utilisation de Avro,
-mise en place Kafka Stream)
+Accompagnement de l'équipe autour de Kafka : configuration clients, gestion des erreurs, structure des messages, Avro, Kafka Stream. Migration de la plateforme Kafka de Aiven vers Confluent Cloud.
 
-Conception et développement d'une brique d'export de données vers Big Query. Automatisation de la documentation des
-structures de donnée via github actions.
+Conception d'une brique d'export de données vers Big Query. Automatisation de la documentation des structures de données via GitHub Actions.
 
-Initialisation de nouvelles briques de suivi d'execution et matching d'artisan via architecture hexagonale, TDD et patterns  DDD.
-
-Migration de l'ensemble des topics Kafka de la plateforme de Aiven vers Confluent Cloud.
+Lancement d'un nouveau produit à l'échelle Adeo (scope international, internalisation du matching d'artisan). En tant que tech lead, mise en place d'une architecture hexagonale, TDD et patterns DDD.
 
 [sidebar]
 *icon:gears[] Contexte Technique* +
