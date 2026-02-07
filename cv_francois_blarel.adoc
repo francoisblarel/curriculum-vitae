@@ -46,7 +46,7 @@ TECH LEAD
 --
 Software craftman. J'aime construire des systèmes de manière collaborative.
 Convaincu de l'_extreme programming_, je crois à l'amélioration continue de l'équipe en mettant en avant la simplicité, la communication et le feedback.
-J'ai une apétence à tout ce qui a attrait à l'architecture et au design.
+J'ai une appétence pour tout ce qui a trait à l'architecture et au design.
 --
 
 '''
