@@ -126,9 +126,9 @@ icon:users[]  Equipe Osmose (30 personnes)
 
 ==== Osmose: Site e-commerce Decathlon international
 
-Conception, réalisation, documentation sur la feature produit. Méthodologies agiles: Kanban
+Site e-commerce historique de Decathlon, au sein du domaine produit (page produit) — application à forte audience touchant quasi l'ensemble des clients Decathlon. Codebase volumineuse et complexe, mode de travail agile et efficace (Kanban).
 
-Etudes et réalisations dans le contexte d’amélioration des livraisons: migration sous Git, automatisation des exécutions de scripts SQL.
+Conception et développement en TDD d'un outil d'automatisation des scripts SQL (équivalent Flyway adapté à Osmose), puis formation de l'ensemble de l'équipe (30 personnes) à son utilisation.
 
 [sidebar]
 *icon:gears[] Contexte Technique* +
