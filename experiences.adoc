@@ -10,19 +10,23 @@ icon:user[]  _Tech lead_ +
 ==== Decathlon Rental (Rental Management System)
 icon:users[]  Equipe Rental (5 personnes)
 
-Au sein de la BU Circularité, location par abonnement chez Decathlon. Backend de gestion du cycle de vie des location, comptes, facturation et paiements.
+Au sein de la BU Circularité, en tant que tech lead du produit de location par abonnement chez Decathlon : gestion du cycle de vie des locations, comptes, facturation et paiements.
 
-Migration de l'application de gestion des locations en SAS (Zuora) vers une solution interne Decathlon.
+Reprise de maîtrise du domaine en remplaçant progressivement une solution SaaS (Zuora) par un produit interne via un strangler pattern. Migration critique et très attendue, menée de manière fluide, offrant à l'équipe produit une autonomie et une flexibilité nouvelles pour faire évoluer l'offre de location.
 
-Découpage et implémentation progressive des différents contextes métier (rental, order, billing, accounting)
+Exploration du domaine métier avec l'équipe via des sessions d'event storming, aboutissant à un découpage clair en contextes (rental, order, billing, accounting) implémentés progressivement — certaines briques, comme l'accounting, isolées volontairement pour ne pas polluer le domaine principal.
 
-Evolution de la CI et de l'organisation de l'équipe pour arriver au déploiement continu.
+Reconstruction du module d'offre de location pour répondre aux nouveaux enjeux métier : passage d'une offre au SKU à une offre au modèle, gestion de multiples périodes d'engagement, etc.
 
-Migration itérative du projet vers une architecture hexagonale event driven.
+Collaboration transversale avec les OPS et la team data sur la pipeline d'intégration de données (Debezium, Kafka Connect) et sur les sujets de monitoring, SLOs et gestion des secrets (Vault) — en démêlant à la fois les enjeux techniques et organisationnels.
 
-Accompagnement de l'équipe autours des pratiques du DDD (event storming, patterns tactiques)
+Participation active aux réflexions d'intégration au e-commerce général Decathlon : enjeux techniques, organisationnels et architecturaux pour faire converger un produit né d'un POC avec l'écosystème existant.
 
-Atelier DDD lors des tech days Decathlon. Accompagnement d'équipes externes autours du DDD.
+Conception d'événements métier exposés via Kafka à destination des équipes externes, avec un soin apporté au design des contrats d'interface.
+
+Mise en place d'une culture de déploiement continu et d'une grande autonomie d'équipe, tant sur les choix techniques que sur le challenge du métier. Montée en compétences sur les pratiques DDD et craft (TDD, pair/mob programming), en favorisant l'appropriation plutôt que l'imposition.
+
+Rayonnement au-delà de l'équipe : animation d'ateliers DDD lors des tech days Decathlon, accompagnement d'autres équipes dans leur adoption du DDD.
 
 
 [sidebar]
