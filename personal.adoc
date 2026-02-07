@@ -27,6 +27,7 @@ Hobbies::
 
 Mes derniers livres::
 
+* Learning Domain driven design by Vlad Khononov
 * Extreme programming explained by Kent Benck and Cynthia Andres
 * Fundamentals of Software architecture by Mark Richards and Neal Ford
 * Implementing Domain Driven Design by Vaughn Vernon

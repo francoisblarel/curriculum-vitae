@@ -6,6 +6,5 @@ icon:envelope[] {email}
 Social Media::
 // icon:linkedin[] Linkedin: {uri-linkedin} +
 icon:github[] GitHub: {uri-github} +
-icon:twitter[] Twitter: {uri-twitter} +
 icon:map-marker[] Location::
 {uri-location}[Templeuve]
