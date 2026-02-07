@@ -1,0 +1,42 @@
+== image:photo-camera-svgrepo-com.svg[Static,30,pdfwidth=0.3in] Personal
+
+
+'''
+
+[horizontal]
+Langues::
+
+* Anglais niveau correct
+* Japonais niveau débutant (2 ans d’étude).
+
+Certifications::
+
+* https://www.credential.net/75a640c9-de5f-4ed0-999e-33e77310a3e0#gs.iv9em6[Confluent Certified Developer for Apache Kafka]
+ (01/2020)
+
+Formations::
+
+* Formation Kafka Confluent officielle (par Zenika)
+* Formation Elasticsearch
+* Formation Kubernetes
+
+Hobbies::
+
+* Musique: basse, MAO et composition
+* cinéma
+
+Mes derniers livres::
+
+* Extreme programming explained by Kent Benck and Cynthia Andres
+* Fundamentals of Software architecture by Mark Richards and Neal Ford
+* Implementing Domain Driven Design by Vaughn Vernon
+
+Mes sujets du moment::
+
+* Kafka et Event driven architechture
+* DDD
+* Retour aux sources de l'agilité
+* Rust et Wasm
+
+
+

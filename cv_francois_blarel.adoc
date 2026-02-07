@@ -1,0 +1,65 @@
+// = François BLAREL
+= image:account-avatar-profile-user-9-svgrepo-com.svg[Static,60,pdfwidth=0.6in,role=text-left] François BLAREL
+François Blarel <francois.blarel@pm.me>
+:author: François Blarel
+:email: francois.blarel@pm.me
+:phone: 06 78 35 26 90
+updated {localdatetime}
+:icons: font
+:iconfont-cdn: https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+ifdef::backend-pdf[]
+// :toc:
+// :toclevels: 1
+// icon:heart[2x,role=red]
+:pdf-themesdir: themes
+endif::[]
+ifdef::backend-html5[]
+:toc: left
+:toclevels: 2
+:toc-title: CV
+endif::[]
+:url-repo: https://github.com/francoisblarel
+:description: my resume
+:imagesdir: images
+:uri-linkedin: https://linkedin.com
+:uri-location: https://www.google.com/maps/place/59242+Templeuve/@50.5322462,3.1365344,13z/data=!3m1!4b1!4m5!3m4!1s0x47c2d09088819c8f:0x6c8ed96062aa3f08!8m2!3d50.532278!4d3.171776
+:uri-github: https://github.com/francoisblarel
+:uri-twitter: https://twitter.com/fblarel
+
+
+// ifdef::backend-html5[]
+// Hello HTML!
+// endif::[]
+// Documentation is a distillation of many long adventures.
+
+// [abstract]
+// [.description]#I'm a software craftman who likes to build stuff for people with people. Team player. XP lover.#
+
+'''
+
+[abstract]
+TECH LEAD
+
+'''
+[verse]
+[.text-justify]
+--
+Software craftman. J'aime construire des systèmes de manière collaborative.
+Convaincu de l'_extreme programming_, je crois à l'amélioration continue de l'équipe en mettant en avant la simplicité, la communication et le feedback.
+J'ai une apétence à tout ce qui a attrait à l'architecture et au design.
+--
+
+'''
+
+include::skills.adoc[]
+
+<<<
+include::experiences.adoc[]
+
+// <<<
+// include::education.adoc[]
+
+<<<
+include::personal.adoc[]
+
+include::profile.adoc[]

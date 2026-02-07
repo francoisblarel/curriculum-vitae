@@ -1,0 +1,22 @@
+== image:backpack-svgrepo-com.svg[Static,30,pdfwidth=0.3in] Skills
+
+
+'''
+
+=== stack
+
+[horizontal]
+languages:: Java, Typescript, CSS, HTML, XML, JSON, Avro, Yaml, Asciidoc
+Technologies::  Kafka, Zookeeper, Schema-registry, Kubernetes, Rancher, Docker, Elasticsearch, Kibana, Logstash, RabbitMQ, Prometheus, Helm, Grafana, Consul
+frameworks and libs::  Spring Suite (Springboot, Spring data…), Kafka Streams, Vavr, Hibernate, Junit, Liquibase, Gatling, Nest
+databases:: Postgres, Oracle, MongoDB
+SCM:: Git, SVN
+Methodologies:: Pair/Mob programming, Kanban, Scrum
+
+
+=== tools
+
+[horizontal]
+IDE:: IntelliJ, Eclipse
+OS:: Linux icon:heart[]
+Build:: Maven, Github actions, Jenkins, Sonar, Nexus, Rundeck

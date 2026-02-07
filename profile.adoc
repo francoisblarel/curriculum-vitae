@@ -1,0 +1,11 @@
+== image:information-svgrepo-com.svg[Static,30,pdfwidth=0.3in] About me
+
+icon:phone[] {phone} +
+icon:envelope[] {email}
+
+Social Media::
+// icon:linkedin[] Linkedin: {uri-linkedin} +
+icon:github[] GitHub: {uri-github} +
+icon:twitter[] Twitter: {uri-twitter} +
+icon:map-marker[] Location::
+{uri-location}[Templeuve]

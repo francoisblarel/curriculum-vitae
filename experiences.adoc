@@ -1,0 +1,276 @@
+== image:road-sign-svgrepo-com.svg[Static,30,pdfwidth=0.3in] Experiences
+
+'''
+
+=== icon:terminal[] Leroy Merlin
+
+icon:calendar[]  01/2023 – aujourd’hui +
+icon:user[]  _Tech lead_ +
+
+==== Decathlon Rental (Rental Management System)
+icon:users[]  Equipe Rental (5 personnes)
+
+Au sein de la BU Circularité, location par abonnement chez Decathlon. Backend de gestion du cycle de vie des location, comptes, facturation et paiements.
+
+Migration de l'application de gestion des locations en SAS (Zuora) vers une solution interne Decathlon.
+
+Découpage et implémentation progressive des différents contextes métier (rental, order, billing, accounting)
+
+Evolution de la CI et de l'organisation de l'équipe pour arriver au déploiement continu.
+
+Migration itérative du projet vers une architecture hexagonale event driven.
+
+Accompagnement de l'équipe autours des pratiques du DDD (event storming, patterns tactiques)
+
+Atelier DDD lors des tech days Decathlon. Accompagnement d'équipes externes autours du DDD.
+
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Java 21, Springboot, Postgres, Kafka, Schema-registry, GKE, Kubernetes,
+C4, AKHQ, KafbatUi … +
+Methodo: DDD, Pair et Mob programming, TDD, property tests
+
+'''
+
+=== icon:terminal[] Leroy Merlin
+
+icon:calendar[]  01/2020 – 01/2023 +
+icon:user[]  _Lead Developer_ +
+
+==== Instala
+icon:users[]  Equipe Instala (15 personnes)
+
+Application de suivi et monitoring des chantiers/devis.
+
+Développement de composants backend sur une architecture microservices. Communication inter services via API et Kafka.
+
+Conception et développement d'une brique d'ACL en Kafka Stream afin d'intégrer et agréger les informations du système
+de vente.
+
+Accompagnement autours de Kafka (configuration clients, gestion des erreurs, structure des messages, utilisation de Avro,
+mise en place Kafka Stream)
+
+Conception et développement d'une brique d'export de données vers Big Query. Automatisation de la documentation des
+structures de donnée via github actions.
+
+Initialisation de nouvelles briques de suivi d'execution et matching d'artisan via architecture hexagonale, TDD et patterns  DDD.
+
+Migration de l'ensemble des topics Kafka de la plateforme de Aiven vers Confluent Cloud.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Java 17, Springboot, Postgres, MongoDB Kafka, Kafka Stream, Schema-registry, Elasticsearch, GKE, Kubernetes, Typescript,
+nodejs, Nest, C4, AKHQ, Conduktor … +
+Methodo: Pair et Mob programming, TDD
+
+'''
+<<<
+=== icon:terminal[] Decathlon
+
+icon:calendar[]  04/2019 – 01/2020 +
+icon:user[]  _DEV/OPS_ +
+
+==== Migration Kubernetes
+icon:users[]  Equipe ops IBUY (10 personnes)
+
+Migration de l’ensemble des applications et middlewares du périmètre BUY vers Kubernetes.
+
+Etude, écriture des différents fichiers de déploiement, poc de différents outils (Helm, Flux), accompagnement des équipes.
+
+Migration des données des clusters Kafka et Elasticsearch de Rancher+AWS vers Kubernetes +GCP.
+
+Mise en place d’une nouvelle solution de monitoring (Prometheus) en remplacement de InfluxDB.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Kafka, Zookeeper, Elasticsearch, Kibana, Kubernetes, Helm, Flux, Yaml, Prometheus, …
+
+'''
+
+=== icon:terminal[] Decathlon
+
+icon:calendar[]  03/2017 – 04/2019 +
+icon:user[]  _Developer_ +
+
+==== Appel prix / BOSS: backend de gestion des caisses
+icon:users[]  Equipe IBUY (2 à 10 personnes)
+
+Analyse, architecture, réalisation, documentation pour la réécriture d’une application de descente des prix vers les caisses magasin.
+
+Analyse, architecture, conception pour la réécriture en mode micro-services + conteneurs de l’application backend de gestion des caisses.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Java, Springboot, Springcloud, Vuejs, vavr, docker, rancher
+
+==== Refonte des flux pour le domaine BUY
+icon:users[]  Squad refonte (3 personnes)
+
+Etude de différentes solutions de flux dans le but de remplacer la solution en place (JMS – MQ et Webmethod) sur le périmètre monde de l’équipe BUY (+-6 équipes): ActiveMQ, RabbitMQ, Kafka, Kinesis
+
+Mise en place complète de la solution Kafka (installation conteneurisée, configuration, monitoring, migration de données, accompagnement des clients) pour les features Posdata (+10M flux par jour) et Boss.
+
+Architecture et développement d’applications de streaming  afin de fournir à l’ensemble de Decathlon les évènements de transactions caisse et web en temps réel.
+
+Etude et mise en place d’une architecture permettant aux clients legacy (JMS) et futurs (Kafka) de cohabiter.
+
+Mise en place complète de la solution Elasticsearch (installation conteneurisée, configuration, monitoring) afin de tracer et rechercher des événements flux (envoi/réception/transformation)
+
+Développement et mise en place d’applications visant à automatiser les tâches de configuration et administration de Kafka.
+
+Développement d’une application permettant de visualiser et rejouer les flux en erreurs par client.
+
+Mise en place d’une solution de récupération, stockage et recherche de log applicatifs des applications BUY conteneurisées (ELK)
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Kafka, Zookeeper, Schema-registry, Avro,Docker, Rancher, Consul, confd, Logstash, Elasticsearch,Curator, Cerebro, Kafka manager, KafkaHQ,  Kibana, Grafana, InfluxDB, Telegraf, Kafka streams, Java, Vavr,Sscala, JMS, Vuejs, yaml
+
+'''
+
+=== icon:terminal[] Decathlon
+
+icon:calendar[]  04/2015 – 03/2017 +
+icon:user[]  _Developer_ +
+icon:users[]  Equipe Osmose (30 personnes)
+
+==== Osmose: Site e-commerce Decathlon international
+
+Conception, réalisation, documentation sur la feature produit. Méthodologies agiles: Kanban
+
+Etudes et réalisations dans le contexte d’amélioration des livraisons: migration sous Git, automatisation des exécutions de scripts SQL.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Java, Ofbiz, Jquery, Angular, Freemarker, Oracle
+Méthodologies agiles, Kanban, code reviews, mob programming
+
+
+'''
+
+<<<
+=== icon:terminal[] Kingfisher
+
+icon:calendar[]  07/2014 – 03/2015 +
+icon:user[]  _Developer_ +
+
+
+==== Mobilité vendeur:
+icon:users[]  Equipe Agile (2 personnes)
+
+Développement d’une application mobile pour les vendeurs magasins.
+
+Agrégation et affichage de données produit à partir de différentes sources.
+Conception, réalisation, propositions graphiques, intégration.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Cordova, AngularJS, Spring MVC
+
+==== Statistiques Click & Collect:
+icon:users[]  1 personne
+
+Application de statistiques de commandes.
+
+Collecte, agrégation et affichage de données venant de différentes sources.
+Conception, réalisation, intégration, livraison.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Spring batch, Spring MVC, JSP, JQuery, Oracle
+
+'''
+
+=== icon:terminal[] Berger-Levrault
+
+icon:calendar[]  09/2013 – 06/2014 +
+icon:user[]  _Developer_ +
+
+==== DOLTO
+icon:users[]  Equipe de 5 personnes (développeurs .Net)
+
+Application de gestion de service enfance et petite enfance.
+
+Refonte technique de l’application.
+Coaching de l’équipe sur la partie Java, Java EE
+
+Mise aux normes de l’architecture du projet
+Etablissement de tests unitaires GWT. Rework de la CI.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Hibernate, Spring, GWT, XmlUI, Hibernate4Gwt, SVN, Oracle
+
+'''
+
+=== icon:terminal[] Humanis
+
+icon:calendar[]  09/2009 – 08/2013 +
+icon:user[]  _Developer, chef de projet opérationel_ +
+
+==== EPiC: Application d’émission de pièces contractuelles.
+icon:users[]  Equipe de 2 personnes
+
+Conception, réalisation, documentation, intégration de l’application.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+ Java EE, Struts 1, JSP, EJB3, Hibernate, Tomcat, Ant, CVS
+
+==== SMG: Workflow de mise en gestion des pièces.
+icon:users[]  Equipe de 2 personnes
+
+Conception, réalisation, documentation, intégration de l’application.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+ Java EE, Struts 1, JSP, EJB3, Hibernate, Tomcat, Ant, CVS
+
+==== Oscar: Outil de gestion des contacts entrant.
+icon:users[]  Equipe de 2 à 3 personnes
+
+Conception, réalisation, documentation, intégration de l’application.
+
+Refonte technique, passage sous Maven, migration de Jboss 4 à Jboss 5. Etablissement de webservices, création de batchs. Réalisation de tests unitaires et d’intégration.
+
+Référent applicatif et technique, prise en charge des mises en recette et production.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Java EE, Struts 1, JSP, Hibernate, EJB3, Jboss 4, Jboss 5, Hudson, Sonar, Webservices, ESB, JUnit, OpenEJB, CVS, SVN
+
+==== Gestionnaire de notifications.
+icon:users[] Equipe de 2 personnes
+
+Conception, réalisation, documentation et intégration de l’application.
+
+Référent applicatif et technique, prise en charge des mises en recette et production.
+
+Réalisation de la partie backend du projet. Intégration de l’API Smack afin de pouvoir discuter avec le serveur XMPP Openfire.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+Java EE, Hibernate, EJB3, Jboss5, Hudson, Sonar, webservices, Smack API, Openfire,
+
+==== Composant d’archivage:
+icon:users[]  1 personne
+
+Réalisation d’une étude pour la réalisation d’un composant d’archivage.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+MongoDB, Morphia
+
+==== PUMAS: Portail d’application.
+icon:users[]  Equipe de 4 à 10 personnes
+
+Réalisation d’un POC sur différents portail.
+
+Conception, réalisation et intégration de différentes portlets.
+
+Etablissement de tests unitaires et d’intégration.
+
+[sidebar]
+*icon:gears[] Contexte Technique* +
+ Liferay, GateIn, Exoplatform, JQuery, JSP, Spring Portlet MVC, JSR 286, Hudson, Sonar, SVN

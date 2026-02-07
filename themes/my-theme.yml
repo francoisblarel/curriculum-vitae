@@ -1,0 +1,13 @@
+extends: default
+page:
+  background-color: #FFFFFF
+verse:
+  text:
+    text-align: justify
+abstract:
+  font-color: #12599c
+heading:
+  h1-font-color: #12599c
+  h2-font-color: #12599c
+  h3-font-color: #9c1259
+

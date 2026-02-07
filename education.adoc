@@ -1,0 +1,22 @@
+== image:map-svgrepo-com.svg[Static,30,pdfwidth=0.3in] Education
+
+
+'''
+
+=== Adeo (03/2009 – 08/2009: 6 mois) : stagiaire.
+
+Equipe de 4 personnes.
+
+Projet Editic: Mise en place d’un portail magasin pour la gestion de toutes les éditions.
+Mapping Hibernate, réalisation d’écrans en GWT, tests unitaires.
+
+Contexte technique: Java EE, GWT (SmartGWT), Spring, Hibernate, Maven, PostGreSQL.
+
+=== Faculté des sciences Jean Perrin (03/2008 – 06/2008: 4 mois) : stagiaire.
+
+Equipe de 2 personnes.
+
+Développement d’un plug-in Eclipse, en collaboration avec le M.I.T.
+Analyse/Programmation, tests unitaires.
+
+Contexte technique: Java, Eclipse.
