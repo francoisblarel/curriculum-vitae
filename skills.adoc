@@ -3,6 +3,13 @@
 
 '''
 
+=== savoir-faire
+
+[horizontal]
+Leadership:: Accompagnement d'équipes (5 à 15 personnes), mentorat technique, animation d'ateliers DDD
+Méthodologies:: DDD (event storming, patterns tactiques), TDD, pair/mob programming, déploiement continu, Kanban, Scrum
+Collaboration:: Facilitation d'ateliers métier, alignement technique/produit, amélioration continue
+
 === stack
 
 [horizontal]
@@ -11,7 +18,6 @@ Technologies::  Kafka, Zookeeper, Schema-registry, Kubernetes, Rancher, Docker, 
 frameworks and libs::  Spring Suite (Springboot, Spring data…), Kafka Streams, Vavr, Hibernate, Junit, Liquibase, Gatling, Nest
 databases:: Postgres, Oracle, MongoDB
 SCM:: Git, SVN
-Methodologies:: Pair/Mob programming, Kanban, Scrum
 
 
 === tools
