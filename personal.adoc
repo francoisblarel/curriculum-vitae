@@ -6,8 +6,8 @@
 [horizontal]
 Langues::
 
-* Anglais niveau correct
-* Japonais niveau débutant (2 ans d’étude).
+* Anglais B2 (plus à l'aise à l'écrit, capable de tenir une conversation)
+* Japonais niveau débutant (2 ans d'étude).
 
 Certifications::
 
@@ -20,24 +20,14 @@ Formations::
 * Formation Elasticsearch
 * Formation Kubernetes
 
-Hobbies::
+Centres d'intérêt::
 
-* Musique: basse, MAO et composition
-* cinéma
+* Cinéma : une vraie passion — visionnage boulimique par périodes, analyse, discussions, bandes originales
+* Musique : basse, MAO et composition depuis plus de 10 ans
 
-Mes derniers livres::
+Lectures récentes::
 
 * Learning Domain driven design by Vlad Khononov
 * Extreme programming explained by Kent Beck and Cynthia Andres
 * Fundamentals of Software architecture by Mark Richards and Neal Ford
 * Implementing Domain Driven Design by Vaughn Vernon
-
-Mes sujets du moment::
-
-* Kafka et Event driven architecture
-* DDD
-* Retour aux sources de l'agilité
-* Rust et Wasm
-
-
-

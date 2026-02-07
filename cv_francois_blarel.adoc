@@ -44,7 +44,7 @@ TECH LEAD
 [verse]
 [.text-justify]
 --
-Passionné par la construction de produits qui ont du sens. Je m'appuie sur le craft, le DDD et l'extreme programming pour aligner technique et métier. Ce qui me motive : faire grandir une équipe, simplifier la complexité, et livrer de la valeur en continu, de manière pragmatique.
+Passionné par la construction de produits qui ont du sens, avec des gens qui ont envie. Je m'appuie sur le craft, le DDD et l'extreme programming pour aligner technique et métier. Ce qui me motive : faire grandir une équipe soudée et volontaire, simplifier la complexité, et livrer de la valeur en continu, de manière pragmatique.
 --
 
 '''
