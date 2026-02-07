@@ -93,9 +93,7 @@ icon:user[]  _Developer_ +
 ==== Appel prix / BOSS: backend de gestion des caisses
 icon:users[]  Equipe IBUY (2 à 10 personnes)
 
-Analyse, architecture, réalisation, documentation pour la réécriture d’une application de descente des prix vers les caisses magasin.
-
-Analyse, architecture, conception pour la réécriture en mode micro-services + conteneurs de l’application backend de gestion des caisses.
+Réécriture d'une application de descente des prix vers les caisses magasin et du backend de gestion des caisses en microservices conteneurisés. Rapidement missionné sur la problématique des flux, sujet critique pour le périmètre BUY.
 
 [sidebar]
 *icon:gears[] Contexte Technique* +
@@ -104,21 +102,15 @@ Java, Springboot, Springcloud, Vuejs, vavr, docker, rancher
 ==== Refonte des flux pour le domaine BUY
 icon:users[]  Squad refonte (3 personnes)
 
-Etude de différentes solutions de flux dans le but de remplacer la solution en place (JMS – MQ et Webmethod) sur le périmètre monde de l’équipe BUY (+-6 équipes): ActiveMQ, RabbitMQ, Kafka, Kinesis
+Étude et refonte du système de flux du périmètre BUY : la solution en place (JMS – MQ, Webmethod) n'était pas adaptée aux contraintes mondiales d'IBUY (millions de transactions par jour). À 3, POC de solutions alternatives (Kafka, RabbitMQ) et conviction en interne que Kafka était la bonne réponse — alors qu'il n'existait pas encore chez Decathlon.
 
-Mise en place complète de la solution Kafka (installation conteneurisée, configuration, monitoring, migration de données, accompagnement des clients) pour les features Posdata (+10M flux par jour) et Boss.
+Migration progressive des flux de caisse (+10M messages par jour) sans big bang, en maintenant les deux systèmes en parallèle pour ne pas casser l'existant.
 
-Architecture et développement d’applications de streaming  afin de fournir à l’ensemble de Decathlon les évènements de transactions caisse et web en temps réel.
+Mise en place complète de l'infrastructure Kafka (conteneurisation Kafka + Zookeeper, intégration Rancher, monitoring). Montée en compétences via une formation ops Kafka et accompagnement d'expert externe.
 
-Etude et mise en place d’une architecture permettant aux clients legacy (JMS) et futurs (Kafka) de cohabiter.
+Construction d'une solution de traçabilité des flux (Kafka + Elasticsearch) permettant aux clients de suivre leurs messages en temps réel — enjeu fort pour installer la confiance dans la nouvelle plateforme.
 
-Mise en place complète de la solution Elasticsearch (installation conteneurisée, configuration, monitoring) afin de tracer et rechercher des événements flux (envoi/réception/transformation)
-
-Développement et mise en place d’applications visant à automatiser les tâches de configuration et administration de Kafka.
-
-Développement d’une application permettant de visualiser et rejouer les flux en erreurs par client.
-
-Mise en place d’une solution de récupération, stockage et recherche de log applicatifs des applications BUY conteneurisées (ELK)
+Architecture et développement d'applications de streaming fournissant à l'ensemble de Decathlon les événements de transactions caisse et web en temps réel.
 
 [sidebar]
 *icon:gears[] Contexte Technique* +
