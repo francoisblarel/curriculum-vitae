@@ -73,13 +73,11 @@ icon:user[]  _DEV/OPS_ +
 ==== Migration Kubernetes
 icon:users[]  Equipe ops IBUY (10 personnes)
 
-Migration de l’ensemble des applications et middlewares du périmètre BUY vers Kubernetes.
+Migration du périmètre BUY (système de caisse Decathlon, scope mondial, millions de messages Kafka par jour) de AWS/Rancher vers GCP/Kubernetes, dans le cadre d'un choix stratégique Decathlon.
 
-Etude, écriture des différents fichiers de déploiement, poc de différents outils (Helm, Flux), accompagnement des équipes.
+Accompagnement des équipes dans la migration de leurs applications et la prise en main des nouveaux outils et de l'infrastructure. Accompagnement des équipes chinoises pour déployer les solutions sur la zone Asie (infra gérée séparément, contraintes spécifiques).
 
-Migration des données des clusters Kafka et Elasticsearch de Rancher+AWS vers Kubernetes +GCP.
-
-Mise en place d’une nouvelle solution de monitoring (Prometheus) en remplacement de InfluxDB.
+Étude et POC des outils de déploiement (Helm, Flux). Migration des clusters Kafka et Elasticsearch. Mise en place de Prometheus pour le monitoring.
 
 [sidebar]
 *icon:gears[] Contexte Technique* +
