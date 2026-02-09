@@ -30,10 +30,9 @@ jobs:
       - name: Copy assets
         run: |
           cp -r images public/images
-          cp styles/resume-orange.css public/ 2>/dev/null || true
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v4
         with:
           path: public
 
