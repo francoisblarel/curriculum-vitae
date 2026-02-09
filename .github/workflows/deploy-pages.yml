@@ -17,11 +17,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: asciidoctor/docker-asciidoctor
     steps:
       - uses: actions/checkout@v4
-
-      - name: Install asciidoctor
-        run: gem install asciidoctor
 
       - name: Build HTML
         run: |
