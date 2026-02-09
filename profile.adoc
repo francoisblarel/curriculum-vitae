@@ -1,5 +1,7 @@
 == image:information-svgrepo-com.svg[Static,30,pdfwidth=0.3in] About me
 
+'''
+
 icon:phone[] {phone} +
 icon:envelope[] {email}
 

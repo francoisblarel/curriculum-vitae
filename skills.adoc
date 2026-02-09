@@ -25,6 +25,17 @@
 - Travail sur la boucle de feedback, déploiement continu
 
 
+=== Valeurs
+
+- Respect, écoute et esprit d'équipe
+- Transparence et pédagogie
+- Simplicité et pragmatisme
+- Responsabilité collective
+
+
+'''
+
+<<<
 === Savoir-faire
 
 [horizontal]
@@ -34,7 +45,7 @@ Technologies::  Kafka, Zookeeper, Schema-registry, Kubernetes, Rancher, Docker, 
 frameworks and libs::  Spring Suite (Springboot, Spring data…), Kafka Streams, Vavr, Jooq, Hibernate, Junit, Liquibase, Gatling, Nest
 databases:: Postgres, Oracle, MongoDB
 SCM:: Git
-(la technique est un moyen, pas une finalité)
+
 
 === Outils
 
@@ -42,13 +53,6 @@ SCM:: Git
 IDE:: IntelliJ, Eclipse
 OS:: Mac, Linux icon:heart[]
 Build:: Maven, Gradle, Github actions, Jenkins, Sonar, Nexus, Rundeck
-
-=== Valeurs
-
-- Respect, écoute et esprit d'équipe
-- Transparence et pédagogie
-- Simplicité et pragmatisme
-- Responsabilité collective
 
 === Ce que je recherche chez un client
 

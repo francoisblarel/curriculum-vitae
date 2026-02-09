@@ -31,7 +31,7 @@ Rayonnement au-delà de l'équipe : animation d'ateliers DDD lors des tech days 
 
 [sidebar]
 *icon:gears[] Contexte Technique* +
-Java 21, Springboot, Postgres, Kafka, Schema-registry, GKE, Kubernetes,
+Java 21, Springboot, Postgres, Kafka, Jooq, Vavr, Schema-registry, GKE, Kubernetes,
 C4, AKHQ, KafbatUi … +
 Methodo: DDD, Pair et Mob programming, TDD, property tests
 
@@ -64,7 +64,7 @@ nodejs, Nest, C4, AKHQ, Conduktor … +
 Methodo: Pair et Mob programming, TDD
 
 '''
-<<<
+
 === icon:terminal[] Decathlon
 
 icon:calendar[]  04/2019 – 01/2020 +
@@ -138,7 +138,7 @@ Méthodologies agiles, Kanban, code reviews, mob programming
 
 '''
 
-<<<
+
 === icon:terminal[] Kingfisher
 
 icon:calendar[]  07/2014 – 03/2015 +

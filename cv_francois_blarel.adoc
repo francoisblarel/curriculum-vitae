@@ -1,9 +1,10 @@
 // = François BLAREL
-= image:account-avatar-profile-user-9-svgrepo-com.svg[Static,60,pdfwidth=0.6in,role=text-left] François BLAREL
-François Blarel <francois.blarel@pm.me>
+= image:account-avatar-profile-user-9-svgrepo-com.svg[Static,40,pdfwidth=0.4in,role=text-left] François BLAREL
+François Blarel
 :author: François Blarel
-:email: francois.blarel@pm.me
-:phone: 06 78 35 26 90
+ifdef::backend-pdf[]
+include::private.adoc[]
+endif::[]
 updated {localdatetime}
 :icons: font
 :iconfont-cdn: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
@@ -22,10 +23,9 @@ endif::[]
 :description: my resume
 :imagesdir: images
 :uri-linkedin: https://linkedin.com
-:uri-location: https://www.google.com/maps/place/59242+Templeuve/@50.5322462,3.1365344,13z/data=!3m1!4b1!4m5!3m4!1s0x47c2d09088819c8f:0x6c8ed96062aa3f08!8m2!3d50.532278!4d3.171776
+:uri-location: https://osm.org/go/0B1b1Q~--?relation=57987
 :uri-github: https://github.com/francoisblarel
-:uri-twitter: https://twitter.com/fblarel
-:uri-bluesky: https://bsky.com/fblarel
+:uri-bluesky: https://bsky.com/profile/fblarel
 
 // ifdef::backend-html5[]
 // Hello HTML!
@@ -38,7 +38,7 @@ endif::[]
 '''
 
 [abstract]
-TECH LEAD
+Tech Lead
 
 '''
 [verse]
